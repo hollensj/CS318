@@ -1,0 +1,66 @@
+.photo1{
+    position: relative;
+    width: 400px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.photo2{
+    position: relative;
+    width: 400px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+.photo3{
+    position: relative;
+    width: 400px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.photo4{
+    position: relative;
+    width: 400px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+.photo {
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: orange;
+    background-color: black;
+    border-radius: 5px;
+    width: 90px;
+    height: auto;
+    opacity: 0.6;
+}
+
+#label1{
+    left: 270px;
+    right: auto;
+    top: 0;
+}
+#label2{
+    left: auto;
+    right: 50px;
+    top: 0;
+}
+
+#label3{
+    left: 270px;
+    right: auto;
+    top: 0;
+
+}
+#label4{
+    left: auto;
+    right: 50px;
+    top: 0;
+}
