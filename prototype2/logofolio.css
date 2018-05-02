@@ -13,8 +13,11 @@
     background-attachment: fixed;
 
 }
-#ASAP{
+#top{
     background-image: url("images/logofolio.jpg");
     width: 1903px;
     height: 900px;
+}
+body{
+    margin: 0;
 }
