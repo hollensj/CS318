@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+#ASAP{
+    width: 900px;
+    height: auto;
+
+}
+.full{
+    width: 25vw;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#ASAP{
+    background-image: url("images/logofolio.jpg");
+    width: 1903px;
+    height: 900px;
+}
