@@ -2,15 +2,12 @@
     box-sizing: border-box;
 }
 
-#ASAP{
-    width: 900px;
-    height: auto;
 
-}
 .full{
     width: 25vw;
     background-size: cover;
     background-attachment: fixed;
+
 
 }
 #top{
@@ -20,4 +17,74 @@
 }
 body{
     margin: 0;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: rgb(240,248,255);
+    margin: 0;
+    height: 300px;
+    vertical-align: middle;
+    line-height: 270px;  
+    font-style: italic;
+    font-size: 50pt;
+}
+h2{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 190px;
+}
+
+h3{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    margin-left: 190px;
+}
+h4{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 190px;
+    margin-bottom: 75px;
+}
+
+p{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px; 
+}
+
+#top1{
+    background-image: url("images/logofolio 1.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#top2{
+    background-image: url("images/logofolio 2.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#top3{
+    background-image: url("images/logofolio 3.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#top4{
+    background-image: url("images/logofolio 4.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#top5{
+    background-image: url("images/logofolio 5.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#top6{
+    background-image: url("images/logofolio 6.jpg");
+    width: 1903px;
+    height: 900px;
+}
+#secondh2{
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
