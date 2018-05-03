@@ -28,6 +28,8 @@ h1{
     line-height: 270px;  
     font-style: italic;
     font-size: 50pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 h2{
     position: relative;
