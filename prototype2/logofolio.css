@@ -96,8 +96,10 @@ p{
     margin-bottom: 75px;
 }
 
-button{
+#image{
     border: none;
     background-color: white;
     margin: 0;
+    width: 90px;
+    height: auto;
 }
