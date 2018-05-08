@@ -21,7 +21,7 @@ body{
 h1{
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    background-color:rgb(255, 209, 26);
+    background-color: rgb(240,248,255);
     margin: 0;
     height: 300px;
     vertical-align: middle;
@@ -32,8 +32,6 @@ h1{
     margin-bottom: 100px;
 }
 #image{
-    border: none;
-    background-color: white;
     margin: 0;
     width: 90px;
     height: auto;

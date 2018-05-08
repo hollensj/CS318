@@ -1,12 +1,6 @@
 *{
     box-sizing: border-box;
 }
-#logo{
-    margin-left: 0;
-    width: 120px;
-
-}
-
 
 .full{
     width: 25vw;
@@ -97,8 +91,6 @@ p{
 }
 
 #image{
-    border: none;
-    background-color: white;
     margin: 0;
     width: 90px;
     height: auto;
