@@ -3,15 +3,15 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin:0;
 }
 ul{
     list-style-type: none;
     margin:0;
     padding:0;
-    background-color: navy;
-    color: white;
+    background-color: grey;
+    color: black;
     border-top: 1px solid white;
 }
 header > .menu{
@@ -23,10 +23,11 @@ header > .menu{
     display: inline-block;
     margin:0;
     position: relative;
+    font-size: 15pt;
 }
 .menu:hover{
     cursor: pointer;
-    background-color: rgb(119, 118, 118);
+    background-color: rgb(240,248,255);
 }
 h1{
     background-color: maroon;
@@ -84,6 +85,14 @@ tr:nth-child(even){
     right:0;
     left: auto;
 }
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 600px;
+    height: auto;
+}
+
 @media (max-width: 600px){
     header > .menu{
         position:absolute;
