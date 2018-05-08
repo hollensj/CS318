@@ -16,22 +16,22 @@
 }
 body{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 h1{
+    display: block;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     background-color: rgb(240,248,255);
-    margin: 0;
     height: 300px;
-    vertical-align: middle;
-    line-height: 270px;  
     font-style: italic;
-    font-size: 50pt;
+    font-size: 40pt;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 h2{
-    position: relative;
     font-family: 'Work Sans', sans-serif;
     margin-left: 190px;
 }
@@ -94,4 +94,8 @@ p{
     margin: 0;
     width: 90px;
     height: auto;
+}
+
+fieldset {
+    border: 0;
 }
