@@ -68,6 +68,7 @@ fieldset {
 
 iframe{
     padding: 50px;
+    border: none;
 }
 .row {
     display: flex;
