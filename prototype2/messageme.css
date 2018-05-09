@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+}
 
 body{
     font-family: 'Work Sans', sans-serif;
