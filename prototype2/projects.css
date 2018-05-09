@@ -32,20 +32,16 @@ h1{
 }
 h2{
     font-family: 'Work Sans', sans-serif;
-    margin-left: 190px;
+    text-align: center;
+    font-size: 30pt;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(240,248,255);
 }
-
-h3{
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
+p{
+    text-align: center;
     font-style: italic;
-    margin-left: 190px;
-}
-h4{
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 190px;
-    margin-bottom: 75px;
+    font-size: 20pt;
 }
 
 #image{
@@ -74,7 +70,7 @@ iframe{
     display: flex;
   }
   
-  .column {
+.column {
     flex: 33.33%;
     padding: 5px;
   }
