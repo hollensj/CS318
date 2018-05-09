@@ -4,7 +4,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
     <title>Jake Benuck Designs</title>
-    <link type="text/css" rel="stylesheet" href="about.css">
+    <link type="text/css" rel="stylesheet" href="messageme.css">
 </head>
 
 <body>
@@ -78,50 +78,15 @@
         </ul>
     </nav>
 
-    <div class="row">
-        <div class="column">
-                <img src="images/bigboicloseup.jpg" alt="Fjords" style="width:100%">
-        </div>
-        <div class="column">
-                <img src="images/bigboi.jpg" alt="Forest" style="width:100%">
-        </div>
-        <div class="column">
-                <img src="images/bigboiextraclose.jpg" alt="Mountains" style="width:100%">
-        </div>
-</div>
-<div class="textbox">
-<h1>I'm Jake. I make things.</h1>
-<h2>Things I like:</h2>
-<ol>
-    <li>Really Loud Music</li>
-    <li>Walking outside (running occasionally)</li>
-    <li>My friends and family</li>
-    <li>When the weather is nice</li>
-    <li>Twitter</li>
-    <li>Days off</li>
-    <li>Various foods</li>
-    <li>Sarcastic lists</li>
-</ol>
-<h2>Things I don't:</h2>
-<ol>
-    <li>Soup</li>
-    <li>Wax figures of any kind</li>
-    <li>Facebook</li>
-    <li>Most cats</li>
-    <li>Twitter</li>
-    <li>Strawberry milk</li>
-</ol>
-</div>
-        <div class="row">
-            <div class="column">
-                    <img src="images/encyphones.jpg" alt="Fjords" style="width:100%">
-            </div>
-            <div class="column">
-                    <img src="images/encyhand.jpg" alt="Forest" style="width:100%">
-            </div>
-            <div class="column">
-                    <img src="images/encyclopedia.jpg" alt="Mountains" style="width:100%">
-            </div>
-    </div>
+    <form id="form1" action="https://formspree.io/hollensj@uwec.edu" method="post">
+        <label id="name">Name: <input type="text" name="name" id="name1"></label><br>
+        <label id="email">Email: <input type="text" name="email" id="email1"></label><br>
+        <label id="subject">Subject: <input type="text" name="subject" id="subject1"></label><br>
+        <textarea id="textfield" name="textfield" placeholder="Are you thinking what I'm thinking? If you're thinking we should work together I think you're right."></textarea>
+        <input type="submit" value="send" id="sendbutton">
+    </form>
+
+</body>
+
 
     </html>
